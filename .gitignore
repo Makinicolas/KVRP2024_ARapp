@@ -1,0 +1,58 @@
+# バイナリキャッシュ
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vscode/
+
+# プロジェクト設定のバックアップファイル
+*.tmp
+*.log
+*.vs
+*.suo
+
+# プラグインのバイナリ
+Plugins/*/Intermediate/
+Plugins/*/Binaries/
+Plugins/*/Saved/
+
+# システム固有のファイル
+.DS_Store
+Thumbs.db
+
+# Unreal Engineのエディタ固有ファイル
+*.idb
+*.pdb
+*.opendb
+*.VC.db
+
+# パッケージング関連
+*.apk
+*.ipa
+*.exe
+*.dll
+*.so
+*.dylib
+
+# ソースコード生成関連
+*.generated.h
+*.generated.cpp
+*.g.cpp
+*.g.h
+
+# コンフィグに関連する一時ファイル
+Config/DefaultEditor.ini
+Config/DefaultEditorSettings.ini
+
+# コンテンツフォルダのバックアップファイル
+*.uasset.tmp
+*.umap.tmp
+
+# 忘れがちなファイル
+*.swp
+*.bak
+*.orig
+
+# プロジェクト設定で無視して良いフォルダ
+*.lock
+.cache/
